@@ -1,0 +1,25 @@
+table {
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+body {
+    background: url('img_2.png');
+    background-size: cover;
+}
+.text {
+    font-weight: bold;
+}
+.btn {
+    height:26px;
+    width:52px;
+    position: relative; bottom: 17px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.form-check {
+    position: relative; top: 13px; left: 25px;
+    scale: 1.3;
+}
