@@ -30,7 +30,7 @@ def plot_graph_temperatyre(x_time, values):
                       legend=dict(x=.5, xanchor="center"),
                       title="Теплица",
                       xaxis_title="Время t, мин",
-                      yaxis_title="Температура t, C",
+                      yaxis_title="Температура T, C",
                       margin=dict(l=0, r=0, t=30, b=0))
 
 
@@ -94,7 +94,7 @@ def plot_graph_average_temp(x_time, values):
                       legend=dict(x=.5, xanchor="center"),
                       title="Теплица",
                       xaxis_title="Время t, мин",
-                      yaxis_title="Температура t, C",
+                      yaxis_title="Температура T, C",
                       margin=dict(l=0, r=0, t=30, b=0))
 
 
@@ -123,7 +123,7 @@ def plot_graph_average_soilhyd(x_time, values):
     av_x_grh.append(x_time)
     av_y_grh.append(values)
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=av_x_grh, y=av_y_grh, name="Измерение средней влажности воздуха"))
+    fig.add_trace(go.Scatter(x=av_x_grh, y=av_y_grh, name="Измерение средней влажности почвы"))
     fig.update_layout(legend_orientation="h",
                       legend=dict(x=.5, xanchor="center"),
                       title="Теплица",
